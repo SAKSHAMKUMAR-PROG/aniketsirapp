@@ -11,42 +11,42 @@ function Blogs() {
       </div>
 
       {/* Blog List */}
-      <div className="border border-gray-200 rounded-xl">
+      <div className="border border-black-200 rounded-xl">
         {/* Blog 1 */}
-        <div className="flex justify-between items-center p-6 border-b border-gray-200">
+        <div className="flex justify-between items-center p-6 border-b border-black-200">
           <div>
             <h2 className="font-semibold text-black">
               Getting started with My App
             </h2>
 
-            <p className="text-gray-500 text-sm mt-1">May 28, 2025</p>
+            <p className="text-black-500 text-sm mt-1">JAN 11, 2005</p>
           </div>
 
-          <span className="text-gray-400 text-xl">{">"}</span>
+          <span className="text-black-400 text-xl">{">"}</span>
         </div>
 
         {/* Blog 2 */}
-        <div className="flex justify-between items-center p-6 border-b border-gray-200">
+        <div className="flex justify-between items-center p-6 border-b border-black-200">
           <div>
             <h2 className="font-semibold text-black">Building a clean UI</h2>
 
-            <p className="text-gray-500 text-sm mt-1">May 20, 2025</p>
+            <p className="text-black-500 text-sm mt-1">JUN 27, 2025</p>
           </div>
 
-          <span className="text-gray-400 text-xl">{">"}</span>
+          <span className="text-black-400 text-xl">{">"}</span>
         </div>
 
         {/* Blog 3 */}
-        <div className="flex justify-between items-center p-6 border-b border-gray-200">
+        <div className="flex justify-between items-center p-6 border-b border-black-200">
           <div>
             <h2 className="font-semibold text-black">
               Tips for better productivity
             </h2>
 
-            <p className="text-gray-500 text-sm mt-1">May 15, 2025</p>
+            <p className="text-black-500 text-sm mt-1">NOV 06, 2004</p>
           </div>
 
-          <span className="text-gray-400 text-xl">{">"}</span>
+          <span className="text-black-400 text-xl">{">"}</span>
         </div>
 
         {/* Blog 4 */}
@@ -56,10 +56,10 @@ function Blogs() {
               Understanding environments
             </h2>
 
-            <p className="text-gray-500 text-sm mt-1">May 10, 2025</p>
+            <p className="text-black-500 text-sm mt-1">AUG 28, 2005</p>
           </div>
 
-          <span className="text-gray-400 text-xl">{">"}</span>
+          <span className="text-black-400 text-xl">{">"}</span>
         </div>
       </div>
     </div>

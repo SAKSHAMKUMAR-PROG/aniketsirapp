@@ -36,6 +36,14 @@ function Nav() {
         <FaCog className="text-lg" />
         <span>Settings</span>
       </Link>
+
+      <Link
+        href="/counter"
+        className="flex items-center gap-3 px-4 py-2 rounded-lg hover:bg-gray-100 transition"
+      >
+        <FaCog className="text-lg" />
+        <span>counter</span>
+      </Link>
     </nav>
   );
 }
