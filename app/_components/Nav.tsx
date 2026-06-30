@@ -1,35 +1,40 @@
 import Link from "next/link";
 import React from "react";
+import { FaHome, FaInfoCircle, FaRegFileAlt, FaCog } from "react-icons/fa";
 
 function Nav() {
   return (
     <nav className="flex flex-col text-black font-extrabold gap-4">
       <Link
         href="/"
-        className="px-4 py-2 rounded-lg hover:bg-gray-100 transition"
+        className="flex items-center gap-3 px-4 py-2 rounded-lg hover:bg-gray-100 transition"
       >
-        Home
+        <FaHome className="text-lg" />
+        <span>Home</span>
       </Link>
 
       <Link
         href="/about"
-        className="px-4 py-2 rounded-lg hover:bg-gray-100 transition"
+        className="flex items-center gap-3 px-4 py-2 rounded-lg hover:bg-gray-100 transition"
       >
-        About
+        <FaInfoCircle className="text-lg" />
+        <span>About</span>
       </Link>
 
       <Link
         href="/blogs"
-        className="px-4 py-2 rounded-lg hover:bg-gray-100 transition"
+        className="flex items-center gap-3 px-4 py-2 rounded-lg hover:bg-gray-100 transition"
       >
-        Blogs
+        <FaRegFileAlt className="text-lg" />
+        <span>Blogs</span>
       </Link>
 
       <Link
         href="/settings"
-        className="px-4 py-2 rounded-lg hover:bg-gray-100 transition"
+        className="flex items-center gap-3 px-4 py-2 rounded-lg hover:bg-gray-100 transition"
       >
-        Settings
+        <FaCog className="text-lg" />
+        <span>Settings</span>
       </Link>
     </nav>
   );

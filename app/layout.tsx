@@ -33,6 +33,11 @@ export default function RootLayout({
         <div className="w-64 h-screen bg-white border-r border-gray-200 p-6">
           <h1 className="text-2xl text-black font-bold mb-8">My App</h1>
           <Nav />
+          <div className="mt-80">
+            <div className="w-10 h-10 rounded-full bg-black text-white flex items-center justify-center font-semibold">
+              N
+            </div>
+          </div>
         </div>
         <div className="w-full">{children}</div>
       </body>
