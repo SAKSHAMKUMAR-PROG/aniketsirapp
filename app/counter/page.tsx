@@ -7,7 +7,7 @@ function Counter() {
 
   return (
     <div className="w-full min-h-screen flex flex-col justify-center items-center bg-black-100">
-      <h1 className="text-4xl font-bold text-black mb-10">Counter</h1>
+      <h1 className="text-4xl font-bold text-black mb-10">Count</h1>
 
       <div className="flex items-center gap-10">
         <button

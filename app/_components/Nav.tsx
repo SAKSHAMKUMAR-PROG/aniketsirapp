@@ -1,6 +1,12 @@
 import Link from "next/link";
 import React from "react";
-import { FaHome, FaInfoCircle, FaRegFileAlt, FaCog } from "react-icons/fa";
+import {
+  FaHome,
+  FaInfoCircle,
+  FaRegFileAlt,
+  FaCog,
+  FaCalculator,
+} from "react-icons/fa";
 
 function Nav() {
   return (
@@ -14,19 +20,35 @@ function Nav() {
       </Link>
 
       <Link
-        href="/about"
-        className="flex items-center gap-3 px-4 py-2 rounded-lg hover:bg-gray-100 transition"
-      >
-        <FaInfoCircle className="text-lg" />
-        <span>About</span>
-      </Link>
-
-      <Link
         href="/blogs"
         className="flex items-center gap-3 px-4 py-2 rounded-lg hover:bg-gray-100 transition"
       >
         <FaRegFileAlt className="text-lg" />
         <span>Blogs</span>
+      </Link>
+
+      <Link
+        href="/posts"
+        className="flex items-center gap-3 px-4 py-2 rounded-lg hover:bg-gray-100 transition"
+      >
+        <FaRegFileAlt className="text-lg" />
+        <span>Posts</span>
+      </Link>
+
+      <Link
+        href="/counter"
+        className="flex items-center gap-3 px-4 py-2 rounded-lg hover:bg-gray-100 transition"
+      >
+        <FaCalculator className="text-lg" />
+        <span>counter</span>
+      </Link>
+
+      <Link
+        href="/namecounter"
+        className="flex items-center gap-3 px-4 py-2 rounded-lg hover:bg-gray-100 transition"
+      >
+        <FaCalculator className="text-lg" />
+        <span>name counter</span>
       </Link>
 
       <Link
@@ -38,11 +60,11 @@ function Nav() {
       </Link>
 
       <Link
-        href="/counter"
+        href="/about"
         className="flex items-center gap-3 px-4 py-2 rounded-lg hover:bg-gray-100 transition"
       >
-        <FaCog className="text-lg" />
-        <span>counter</span>
+        <FaInfoCircle className="text-lg" />
+        <span>About</span>
       </Link>
     </nav>
   );
