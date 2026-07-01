@@ -40,7 +40,7 @@ function Nav() {
         className="flex items-center gap-3 px-4 py-2 rounded-lg hover:bg-gray-100 transition"
       >
         <FaCalculator className="text-lg" />
-        <span>counter</span>
+        <span>Counter</span>
       </Link>
 
       <Link
@@ -48,7 +48,15 @@ function Nav() {
         className="flex items-center gap-3 px-4 py-2 rounded-lg hover:bg-gray-100 transition"
       >
         <FaCalculator className="text-lg" />
-        <span>name counter</span>
+        <span>NameCounter</span>
+      </Link>
+
+      <Link
+        href="/todo"
+        className="flex items-center gap-3 px-4 py-2 rounded-lg hover:bg-gray-100 transition"
+      >
+        <FaInfoCircle className="text-lg" />
+        <span>Todo</span>
       </Link>
 
       <Link
