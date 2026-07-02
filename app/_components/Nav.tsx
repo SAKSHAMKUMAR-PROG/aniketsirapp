@@ -7,6 +7,8 @@ import {
   FaCog,
   FaCalculator,
 } from "react-icons/fa";
+import { SiNamebase } from "react-icons/si";
+import { TbArrowBarToDown, TbLogs } from "react-icons/tb";
 
 function Nav() {
   return (
@@ -23,7 +25,7 @@ function Nav() {
         href="/todo"
         className="flex items-center gap-3 px-4 py-2 rounded-lg hover:bg-gray-100 transition"
       >
-        <FaInfoCircle className="text-lg" />
+        <TbArrowBarToDown className="text-lg" />
         <span>Todo</span>
       </Link>
 
@@ -31,8 +33,16 @@ function Nav() {
         href="/blogs"
         className="flex items-center gap-3 px-4 py-2 rounded-lg hover:bg-gray-100 transition"
       >
-        <FaRegFileAlt className="text-lg" />
+        <TbLogs className="text-lg" />
         <span>Blogs</span>
+      </Link>
+
+      <Link
+        href="/movies"
+        className="flex items-center gap-3 px-4 py-2 rounded-lg hover:bg-gray-100 transition"
+      >
+        <TbLogs className="text-lg" />
+        <span>Movies</span>
       </Link>
 
       <Link
@@ -55,7 +65,7 @@ function Nav() {
         href="/namecounter"
         className="flex items-center gap-3 px-4 py-2 rounded-lg hover:bg-gray-100 transition"
       >
-        <FaCalculator className="text-lg" />
+        <SiNamebase className="text-lg" />
         <span>NameCounter</span>
       </Link>
 
